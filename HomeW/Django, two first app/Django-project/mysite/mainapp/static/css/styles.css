@@ -1,0 +1,17 @@
+.photo {
+    background:rgb(255, 255, 255); /* Цвет фона */
+    width: 350px; /* Ширина */
+    margin: 20px 60px 20px 50px; /* Отступы */
+    text-align: center; /* Выравнивание по центру */
+    display: inline-block; /* Строчно-блочный элемент */
+   }
+    .photo img {
+    border: 2px solid #000000; /* Параметры рамки */
+   }
+    .photo p {
+    margin: 0; /* Отступы */
+   }
+   h1 {
+    font-size: 60px;
+    text-align: center;
+  }

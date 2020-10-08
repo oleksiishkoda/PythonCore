@@ -1,0 +1,36 @@
+{% extends "mainapp/wrapper.html" %}
+{% load static %}
+{% block content %}
+<head>
+    <meta charset="UTF-8">
+    <meta name = "viewport" content = "width=device-width, initial-scale = 1.0">
+    <meta http-equiv = "X-UA-Compatible" content = "ie-edge">
+    <title>Головна</title>
+    {% load static %}
+    <link rel = "stylesheet" href = "{% static 'css/bootstrap.min.css' %}" type = "text/css">
+</head>
+<body background="{% static 'images/1574511129_1.jpg' %}">
+<div class="conteiner">
+    <p>
+        <center>
+            <h1>Вітаємо Вас на сайті про основи фінансової грамотності!</h1>
+        </center>
+    </p>
+</div>
+<div class = "conteiner">
+    <center>
+        <img src = "{% static 'images/news4.22.05.17.jpg' %}"  text-align:center>
+    </center>
+</div>
+<div class="jumbotron">
+    <div class="conteiner">
+        <center>
+        <p>
+            <a href="/books" class = "btn btn-danger btn-lg">Матеріали для прочитання &raquo;</a>
+            <a href="/contacts" class = "btn btn-success btn-lg">Контакти &raquo;</a>
+        </p>
+        </center>
+    </div>
+</div>
+</body>
+{% endblock %}

@@ -1,0 +1,35 @@
+{% extends "mainapp/wrapper.html" %}
+{% load static %}
+{% block content %}
+<head>
+    <meta charset="UTF-8">
+    <meta name = "viewport" content = "width=device-width, initial-scale = 1.0">
+    <meta http-equiv = "X-UA-Compatible" content = "ie-edge">
+    <title>Контакти</title>
+    {% load static %}
+    <link rel = "stylesheet" href = "{% static 'css/bootstrap.min.css' %}" type = "text/css">
+</head>
+<body background="{% static 'images/завантаження.jpg' %}">
+    <div class="conteiner">
+        <p text-indent = '20px'><h1>Якщо виникли питання, звертайтеся:</h1></p>
+        <p>
+            <a href="https://t.me/joinchat/FZbMgEsHd3bVJh81IgtItg" class = "btn btn-primary btn-lg">Telegram-канал</a>
+        </p>
+        <p>
+            <a href="http://www.instagram.com/ezmoney1" class = "btn btn-info btn-lg">Instagram</a>
+        </p>
+        <p class= "btn btn-warning btn-lg">(067) 456 45 32</p>
+        <center>
+            <img src = "{% static 'images/convo.png' %}" width="800" height="500">
+        </center>
+    </div>
+<div>
+    <center>
+        <hr>
+        <p>
+            <a href = "../" class= "btn btn-danger btn-lg">Головна</a>
+        </p>
+    </center>
+</div>
+</body>
+{% endblock %}

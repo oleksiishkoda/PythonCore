@@ -1,0 +1,56 @@
+{% extends "mainapp/wrapper.html" %}
+{% load static %}
+{% block content %}
+<head>
+    <meta charset="UTF-8">
+    <meta name = "viewport" content = "width=device-width, initial-scale = 1.0">
+    <meta http-equiv = "X-UA-Compatible" content = "ie-edge">
+    <title>Книги</title>
+    <!-- <link rel = "shortcut icon" href = "{% static 'images/evernote.ico' %}" type = "images/x-icon"> -->
+    <link rel = "stylesheet" href = "{% static 'css/styles.css' %}" type="text/css">
+</head>
+<body >
+    <div><h1>Книги, які варто прочитати!</h1></div>
+    <div class="photo">
+        <p>
+            <a href = "https://www.yakaboo.ua/ua/investory-protiv-spekuljantov-kto-na-samom-dele-upravljaet-fondovym-rynkom.html">
+                <img src = "{% static 'images/7book.jpg' %}" width="200" height="300"></a></p>
+        <p class="caption">Инвесторы против спекулянтов - Джон К. Богл</p>
+    </div>
+    <div class="photo">
+        <p>
+            <a href="https://www.yakaboo.ua/ua/razumnyj-investor-polnoe-rukovodstvo-po-stoimostnomu-investirovaniju.html">
+                <img src = "{% static 'images/2book.jpg' %}" width="200" height="300"></a></p>
+        <p class="caption">Разумный инвестор (Бенджамин Грэхем)</p>
+    </div>
+    <div class="photo">
+        <p>
+            <a href = "https://www.yakaboo.ua/ua/put-k-finansovoj-svobode-1447453.html">
+                <img src = "{% static 'images/3book.jpg' %}" width="200" height="300"></a></p>
+        <p class="caption">Путь к финансовой свободе (Бодо Шефер)</p>
+    </div>
+    <div class="photo">
+        <p>
+            <a href = "https://www.yakaboo.ua/ua/mnozhestvennye-istochniki-dohoda.html">
+                <img src = "{% static 'images/8book.jpg' %}" width="200" height="300"></a></p>
+        <p class="caption">Множественные источники дохода (Роберт Аллен)</p>
+    </div>
+    <div class="photo">
+        <p>
+            <a href = "https://www.yakaboo.ua/ua/the-richest-man-in-babylon-956771.html">
+                <img src = "{% static 'images/5book.jpg' %}" width="200" height="300"></a></p>
+        <p class="caption">Самый богатый человек в Вавилоне (Джордж С. Клейсон)</p>
+    </div>
+    <div class="photo">
+        <p>
+            <a href = "https://www.yakaboo.ua/ua/odin-klik-i-ty-kapitalist-versija-2-0-ukrainskaja.html">
+                <img src = "{% static 'images/6book.jpg' %}" width="200" height="300"></a></p>
+        <p class="caption">Один «клик» — и ты капиталист.(Алексей Сухоруков, Дмитрий Старенко)</p>
+    </div>
+    <div>
+        <center>
+            <hr><p><a href = "../" class= "btn btn-danger btn-lg">Головна</a></p>
+        </center>
+    </div>
+</body>
+{% endblock %}
