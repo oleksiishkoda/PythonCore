@@ -15,3 +15,4 @@ aws s3
 unix 
 mysql
 postgresql
+selenium
