@@ -17,3 +17,4 @@ mysql
 postgresql
 selenium
 pytest
+requests
