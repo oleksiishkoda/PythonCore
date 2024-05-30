@@ -20,3 +20,4 @@ pytest
 requests
 api tests
 wui tests
+functional backend tests
