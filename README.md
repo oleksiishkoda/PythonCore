@@ -8,3 +8,4 @@ I have experienced with:
 python
 centos
 freebsd
+debian
