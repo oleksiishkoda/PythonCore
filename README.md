@@ -12,3 +12,4 @@ debian
 docker
 kubernetes
 aws s3
+unix 
