@@ -18,3 +18,4 @@ postgresql
 selenium
 pytest
 requests
+api tests
