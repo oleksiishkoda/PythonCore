@@ -14,3 +14,4 @@ kubernetes
 aws s3
 unix 
 mysql
+postgresql
