@@ -22,3 +22,4 @@ api tests
 wui tests
 functional backend tests
 JIRA
+confluence
