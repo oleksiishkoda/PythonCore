@@ -9,3 +9,4 @@ python
 centos
 freebsd
 debian
+docker
