@@ -16,3 +16,4 @@ unix
 mysql
 postgresql
 selenium
+pytest
