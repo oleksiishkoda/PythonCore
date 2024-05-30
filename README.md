@@ -10,3 +10,4 @@ centos
 freebsd
 debian
 docker
+kubernetes
