@@ -11,3 +11,4 @@ freebsd
 debian
 docker
 kubernetes
+aws s3
