@@ -19,3 +19,4 @@ selenium
 pytest
 requests
 api tests
+wui tests
