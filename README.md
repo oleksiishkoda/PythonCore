@@ -7,3 +7,4 @@ Especially in automation
 I have experienced with:
 python
 centos
+freebsd
